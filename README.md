@@ -22,6 +22,8 @@ This repository contains an image classification project built using a Convoluti
 │
 ├── ValidationImage/
 │   ├── sample images for testing
+│
+├── requirements.txt
 ```
 
 ---
@@ -64,6 +66,11 @@ Install dependencies:
 
 ```bash
 pip install tensorflow keras numpy matplotlib pillow scikit-learn pickle-mixin
+```
+or
+
+```bash
+pip install -r requirements.txt
 ```
 
 ---
