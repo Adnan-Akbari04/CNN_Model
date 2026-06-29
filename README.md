@@ -160,7 +160,7 @@ Main libraries used:
 
 ## Contact
 
-**Email:** adnanakbari@outlook.com 
+**Email:** adnanakbari@outlook.com   
 **GitHub:** [GitHub profile](https://github.com/Adnan-Akbari04)  
 **LinkedIn:** [Linkedin profile](https://www.linkedin.com/in/adnan-akbari/)
 
