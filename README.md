@@ -99,24 +99,6 @@ Do not move or rename these files unless you update the paths in `UI.py`.
 
 ---
 
-## Training the Model
-
-If you want to retrain the model:
-
-Run:
-
-```bash
-python ModelDevelopment/DataAugmentation.py
-python ModelDevelopment/CNN_Development.py
-```
-
-This will:
-- augment the dataset
-- train the CNN model
-- generate updated model weights
-
----
-
 ## Validation
 
 You can test the model using images inside:
@@ -157,6 +139,40 @@ Main libraries used:
 - Scikit-learn
 
 ---
+
+## Reusing the Data Augmentation Module
+
+The `DataAugmentation.py` module is not limited to this project. You can reuse it in your own image classification projects with any dataset.
+
+To use it:
+
+1. Place your dataset in any folder structure you want.
+2. Open `ModelDevelopment/DataAugmentation.py`.
+3. Update the dataset path variable to point to your own dataset directory.
+4. Run:
+
+```bash
+python ModelDevelopment/DataAugmentation.py
+```
+
+This will apply the augmentation pipeline to your dataset and generate augmented images based on the transformations defined in the script.
+
+This makes it easy to:
+- expand small datasets
+- improve model generalization
+- reduce overfitting
+- prepare custom datasets for training
+
+**Important:**  
+Make sure your dataset follows a class-based folder structure like:
+
+```bash
+dataset/
+├── class_1/
+├── class_2/
+├── class_3/
+```
+so the augmentation pipeline can process the data correctly.
 
 ## Contact
 
