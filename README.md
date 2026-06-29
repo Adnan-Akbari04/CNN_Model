@@ -14,7 +14,6 @@ This repository contains an image classification project built using a Convoluti
 ├── ExeProject/
 │   ├── CNN_Model.keras
 │   ├── class_names.pkl
-│   └── icon.png
 │
 ├── ModelDevelopment/
 │   ├── CNN_Development.py
