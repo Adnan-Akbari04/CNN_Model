@@ -160,9 +160,9 @@ Main libraries used:
 
 ## Contact
 
-**Email:** your.email@example.com  
-**GitHub:** https://github.com/yourusername  
-**LinkedIn:** https://linkedin.com/in/yourprofile
+**Email:** adnanakbari@outlook.com 
+**GitHub:** [GitHub profile](https://github.com/Adnan-Akbari04)  
+**LinkedIn:** [Linkedin profile](https://www.linkedin.com/in/adnan-akbari/)
 
 ---
 
