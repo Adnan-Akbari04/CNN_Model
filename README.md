@@ -174,6 +174,8 @@ dataset/
 ```
 so the augmentation pipeline can process the data correctly.
 
+---
+
 ## Contact
 
 **Email:** adnanakbari@outlook.com   
